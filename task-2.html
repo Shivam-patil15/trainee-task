@@ -14,14 +14,17 @@
         <header>
             <div class="wrapper">
                 <!--Starting header-->
-                <div class="starting-header">
+                <div class="top-header">
                     <div class="logo">
-                        <h1>Eurofinance</h1>
+                        <h1><a href="#FIXME" target="_blank" title="logo">Eurofinance</a></h1>
                     </div>
                     <div class="search">
-                        <label for=search></label>
-                        <input type="text" id="search" name="search" placeholder="Search">
-                        <button class="go" title="GO">GO</button>
+                        <form>
+                            <label for=search></label>
+                            <input type="text" id="search" name="search" placeholder="Search">
+                            <a href="#FIXME" target="_blank" title="btn">
+                                <button type="submit" class="go" value="Submit" title="GO">GO</button></a>
+                        </form>
                     </div>
                 </div>
                 <!--hamburger menu-->
@@ -33,14 +36,14 @@
                 <!--navigation menu-->
                 <nav>
                     <ul class="menu">
-                        <li><a href="#FIXME">Home</a></li>
-                        <li class="active"><a href="#FIXME">News</a></li>
-                        <li><a href="#FIXME">Conferences</a></li>
-                        <li><a href="#FIXME">Training</a></li>
-                        <li><a href="#FIXME">Awards</a></li>
-                        <li><a href="#FIXME">About us</a></li>
-                        <li><a href="#FIXME">Treasury Network</a></li>
-                        <li><a href="#FIXME">Contact us</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Home</a></li>
+                        <li class="active"><a href="#FIXME" target="_blank" title="nav-menu">News</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Conferences</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Training</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Awards</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">About us</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Treasury Network</a></li>
+                        <li><a href="#FIXME" target="_blank" title="nav-menu">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -48,91 +51,145 @@
         <!--Main section start here -->
         <main>
             <!--section 1 start here -->
-            <section class="banner">
+            <section class="mostviewed">
                 <div class="wrapper">
                     <!--right aside -->
                     <aside class="right-aside">
-                        <div class="aside1">
-                            <h3><span id="content1">Stay up to date with news</span><span id="content2"> from
-                                    EuroFinance</span></h3>
-                            <button class="aside1-btn1" title="signup">Sign up to our newsletter</button>
+                        <div class="asideone">
+                            <h3>Stay up to date with news from EuroFinance</h3>
+                            <a href="#FIXME" target="_blank" title="btn"><button type="submit" class="aside-btn"
+                                    title="signup" value="submit">Sign
+                                    up to our
+                                    newsletter</button></a>
                         </div>
-                        <div class="aside2">
+                        <div class="newsletter">
                             <h3>Most viewed</h3>
-                            <div class="aside21">
-                                <h4>Technology</h4>
-                                <h3><span class="a21">Google pairs with SAP to reshape </span><span
-                                        class="a22">treasury</span></h3>
-                                <h4>6 January 2020</h4>
+                            <div class="asidetrending">
+                                <h4 class="topic">Technology</h4>
+                                <h3 class="heading">Google pairs with SAP to reshape treasury</h3>
+                                <span class="date">6 January 2020</span>
                             </div>
-                            <div class="aside21">
-                                <h4>Cash & investment</h4>
-                                <h3><span class="a21">Treasurers at VW.paypal and </span><span class="a22">BMW find
-                                        innovative ways to beat</span><span class="a23">Europe's negative interrest
-                                        rates</span></h3>
-                                <h4>6 January 2020</h4>
+                            <div class="asidetrending">
+                                <h4 class="topic">Cash & investment</h4>
+                                <h3 class="heading">Treasurers at VW.paypal and BMW find innovative ways to beat
+                                    Europe's negative
+                                    interrest
+                                    rates</h3>
+                                <span class="date">3 september 2019<span>
                             </div>
-                            <div class="aside21">
-                                <h4>Technology</h4>
-                                <h3><span class="a21">Treasurer prepare for global</span><span
-                                        class="a22">distriuption,new risks</span></h3>
-                                <h4>6 January 2020</h4>
+                            <div class="asidetrending">
+                                <h4 class="topic">Technology</h4>
+                                <h3 class="heading">Treasurer prepare for global distriuption,new risks</h3>
+                                <span>17 october 2019</span>
                             </div>
-                            <div class="aside21">
-                                <h4>Technology</h4>
-                                <h3><span class="a21">Airlines divided on hedge benefits </span><span class="a22">as oil
-                                        volatility surges</span></h3>
-                                <h4>6 January 2020</h4>
+                            <div class="asidetrending">
+                                <h4 class="topic">Technology</h4>
+                                <h3 class="heading">Airlines divided on hedge benefits as oil volatility surges</h3>
+                                <span class="date">28 November 2018</span>
                             </div>
                         </div>
                     </aside>
                 </div>
-                <!--left side-->
+            </section>
+            <!--left side-->
+            <section class="liquidity">
                 <div class="wrapper">
-                    <div class="text-img">
-                        <div class="left-text">
+                    <div class="liquidity">
+                        <div class="liquidity-content">
                             <h4>Banking relationships</h4>
                             <h2>Refining Russian liquidity</h2>
-                            <h4>11 March 2020</h4>
+                            <span class="date">11 March 2020</span>
                             <p>Sandvik's determination to centralise cash across its Russian operations led it to break
                                 new ground...</p>
                         </div>
-                        <div class="right-img">
-                            <img src="banner-img" alt="banner-img">
+                        <div class="liquidity-img">
+                            <figure>
+                                <img src="banner-img" alt="banner-img">
+                            </figure>
                         </div>
                     </div>
                 </div>
             </section>
             <!--Section 2 start here-->
-            <section class="section2">
+            <section class="sectiontwo">
                 <div class="wrapper">
-                    <div class="img3div">
-                        <div class="div32">
-                            <img src="img1" alt="cash & investment">
-                            <h4>Cash & investment</h4>
-                            <h3>Freeing trapped cash in Africa</h3>
-                            <h4>27 February 2020</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
-                                facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur quibusdam
-                                dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
+                    <article>
+                        <div class="latest-articles">
+                            <div class="article">
+                                <figure>
+                                    <img src="img1" alt="cash & investment">
+                                </figure>
+                                <h4 class="topic">Cash & investment</h4>
+                                <h3 class="heading">Freeing trapped cash in Africa</h3>
+                                <span class="date">27 February 2020</span>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
+                                    facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur
+                                    quibusdam
+                                    dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
+                            </div>
+                            <div class="article">
+                                <figure>
+                                    <img src="img2" alt="FX risk">
+                                </figure>
+                                <h4 class="topic">FX risk</h4>
+                                <h3 class="heading">Testing the limits of FX risk management</h3>
+                                <span class="date">27 February 2020</span>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
+                                    facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur
+                                    quibusdam
+                                    dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
+                            </div>
+                            <div class="article">
+                                <figure>
+                                    <img src="img3" alt="cash & investment">
+                                </figure>
+                                <h4 class="topic">Cash & investment</h4>
+                                <h3 class="heading">Tech giants boost cash holdings to record high</h3>
+                                <span class="date">17 February 2020</span>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
+                                    facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur
+                                    quibusdam
+                                    dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
+                            </div>
                         </div>
-                        <div class="div32">
-                            <img src="img2" alt="FX risk">
-                            <h4>FX risk</h4>
-                            <h3>Testing the limits of FX risk management</h3>
-                            <h4>27 February 2020</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
-                                facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur quibusdam
-                                dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
-                        </div>
-                        <div class="div32">
-                            <img src="img3" alt="cash & investment">
-                            <h4>Cash & investment</h4>
-                            <h3>Tech giants boost cash holdings to record high</h3>
-                            <h4>17 February 2020</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum placeat, consequuntur
-                                facilis sunt voluptate itaque voluptatum aut deserunt sit animi consequatur quibusdam
-                                dignissimos doloremque qui ab quis, adipisci minus nostrum.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!--Section 3 -->
+            <section class="sectionthree">
+                <div class="wrapper">
+                    <!--slider-->
+                    <div class="Mustsee">
+                        <h2>Must see </h2>
+                        <div class="videoslider">
+                            <div class="slider">
+                                <video width="320" height="240" autoplay controls>
+                                    <source src="video1" type="video/mp4">
+                                    not support video tag to your browser
+                                </video>
+                                <h4 class="topic">Video | Treasury management</h4>
+                                <h3 class="heading">A Treasurer's role in $7bn strategic M&A deal</h3>
+                            </div>
+                            <div class="slider">
+                                <video width="320" height="240" autoplay controls>
+                                    <source src="video2" type="video/mp4">
+                                    not support video tag to your browser
+                                </video>
+                                <h4 class="topic">Video | Technology</h4>
+                                <h3 class="heading">How today's treasury departments can build resilient teams for the
+                                    future</h3>
+
+                            </div>
+                            <div class="slider">
+                                <video width="320" height="240" autoplay controls>
+                                    <source src="video3" type="video/mp4">
+                                    not support video tag to your browser
+                                </video>
+                                <h4 class="topic">Video | Treasury management</h4>
+                                <h3 class="heading">How centralisation & zero balance accounts helped unlock € ISO
+                                    milion</h3>
+                            </div>
                         </div>
                     </div>
                     <!--arrows for slider-->
@@ -141,129 +198,90 @@
                         <span class="arrow">&#62;
                         </span>
                     </div>
-                    <!--slider-->
-                    <div class="3slider">
-                        <h2>Must see </h2>
-                        <div class="main-slider">
-                            <div class="slider">
-                                <video width="320" height="240" autoplay controls>
-                                    <source src="video1" type="video/mp4">
-                                    not support video tag to your browser
-                                </video>
-                                <h4>Video | Treasury management</h4>
-                                <h3>A Treasurer's role in $7bn strategic M&A deal</h3>
-                            </div>
-                            <div class="slider">
-                                <video width="320" height="240" autoplay controls>
-                                    <source src="video2" type="video/mp4">
-                                    not support video tag to your browser
-                                </video>
-                                <h4>Video | Technology</h4>
-                                <h3>How today's treasury departments can build resilient teams for the future</h3>
-
-                            </div>
-                            <div class="slider">
-                                <video width="320" height="240" autoplay controls>
-                                    <source src="video3" type="video/mp4">
-                                    not support video tag to your browser
-                                </video>
-                                <h4>Video | Treasury management</h4>
-                                <h3>How centralisation & zero balance accounts helped unlock € ISO milion</h3>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
             </section>
 
-            <!--Section 3 start here-->
-            <section class="section3">
+            <!--Section 4 start here-->
+            <section class="sectionfour">
                 <div class="wrapper">
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Technology</h4>
-                            <h3>Wrestling with the future</h3>
-                            <h4>11 February 2020</h4>
+                    <div class="newshistory">
+                        <div class="news">
+                            <h4 class="topic">Technology</h4>
+                            <h3 class="heading">Wrestling with the future</h3>
+                            <span class="date">11 February 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Technology</h4>
-                            <h3>Honeywell's AI-free cash forecasting robots</h3>
-                            <h4>4 February 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Technology</h4>
+                            <h3 class="heading">Honeywell's AI-free cash forecasting robots</h3>
+                            <span class="date">4 February 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Treasury management</h4>
-                            <h3>Treasury step up in M&A</h3>
-                            <h4>29 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Treasury management</h4>
+                            <h3 class="heading">Treasury step up in M&A</h3>
+                            <span class="date">29 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Payments</h4>
-                            <h3>No time like the present</h3>
-                            <h4>20 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Payments</h4>
+                            <h3 class="heading">No time like the present</h3>
+                            <span class="date">20 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Banking relationships</h4>
-                            <h3>Citi and BofA surge ahead in transaction banking</h3>
-                            <h4>20 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Banking relationships</h4>
+                            <h3 class="heading">Citi and BofA surge ahead in transaction banking</h3>
+                            <span class="date">20 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Comment</h4>
-                            <h3>EuroFinance's top articles of 2019</h3>
-                            <h4>7 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Comment</h4>
+                            <h3 class="heading">EuroFinance's top articles of 2019</h3>
+                            <span class="date">7 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Technology</h4>
-                            <h3>Google pairs with SAP to reshape treasury</h3>
-                            <h4>6 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Technology</h4>
+                            <h3 class="heading">Google pairs with SAP to reshape treasury</h3>
+                            <span class="date">6 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>Working capital & funding</h4>
-                            <h3>Making dabt pay</h3>
-                            <h4>6 January 2020</h4>
+
+                        <div class="news">
+                            <h4 class="topic">Working capital & funding</h4>
+                            <h3 class="heading">Making dabt pay</h3>
+                            <span class="date">6 January 2020</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
                         </div>
-                    </div>
-                    <div class="blocks9">
-                        <div class="b9">
-                            <h4>FX risk</h4>
-                            <h3>Corporates make VaR push in FX</h3>
-                            <h4>16 December 2019</h4>
+
+                        <div class="news">
+                            <h4 class="topic">FX risk</h4>
+                            <h3 class="heading">Corporates make VaR push in FX</h3>
+                            <span class="date">16 December 2019</span>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae sed,
                                 quibusdam nostrum quasi, tempora doloribus temporibus aperiam accusamus eaque vel
                                 eveniet numquam tenetur eum hic quam exercitationem. Repellat, accusantium.</p>
@@ -274,54 +292,54 @@
             </section>
         </main>
 
-            <!--Footer start here-->
-            <footer>
-                <div class="wrapper">
-                    <div class="footer1">
-                        <div class="f1">
-                            <h1>EuroFinance</h1>
-                            <h3>Part of <span class="bold">The Economist Group</span></h3>
-                        </div>
-                        <div class="f1">
-                            <h4>Our Eurofinance.com</h4>
-                            <ul>
-                                <li><a href="#FIXME">Home</a></li>
-                                <li class="active"><a href="#FIXME">News</a></li>
-                                <li><a href="#FIXME">Conferences</a></li>
-                                <li><a href="#FIXME">Training</a></li>
-                                <li><a href="#FIXME">Awards</a></li>
-                                <li><a href="#FIXME">About us</a></li>
-                                <li><a href="#FIXME">Treasury Network</a></li>
-                                <li><a href="#FIXME">Contact us</a></li>
-                            </ul>
-                        </div>
-                        <div class="f1">
-                            <h3>Keep Updated </h3>
-                            <ul>
-                                <li>Linkdin</li>
-                                <li>Twitter</li>
-                                <li>Youtube</li>
-                                <li>Facebook</li>
-                            </ul>
-                        </div>
+        <!--Footer start here-->
+        <footer>
+            <div class="wrapper">
+                <div class="eurodetails">
+                    <div class="detail">
+                        <h1><a href="#FIXME" target="_blank" title="logo">Eurofinance</a></h1>
+                        <p>Part of <span class="bold">The Economist Group</span></p>
                     </div>
-                    <div class="footer2">
-                        <div class="f2">
-                            <ul class="list">
-                                <li>Terms of use </li>
-                                <li>Privacy and cookies</li>
-                                <li>Accessibility</li>
-                                <li>Manage cookie preferences</li>
-                            </ul>
-                        </div>
-                        <div class="f2">
-                            <p>Copyright &copy; 2020 EuroFinance.</p>
-                        </div>
+                    <div class="detail">
+                        <h4>Our Eurofinance.com</h4>
+                        <ul>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Home</a></li>
+                            <li class="active"><a href="#FIXME" target="_blank" title="nav-menu">News</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Conferences</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Training</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Awards</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">About us</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Treasury Network</a></li>
+                            <li><a href="#FIXME" target="_blank" title="nav-menu">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="detail">
+                        <h3>Keep Updated </h3>
+                        <ul>
+                            <li><a href="#FIXME" target="_blank" title="social-menu">Linkdin</a></li>
+                            <li><a href="#FIXME" target="_blank" title="social-menu">Twitter</a></li>
+                            <li><a href="#FIXME" target="_blank" title="social-menu">Youtube</a></li>
+                            <li><a href="#FIXME" target="_blank" title="social-menu">Facebook</a></li>
+                        </ul>
                     </div>
                 </div>
+                <div class="euroterms">
+                    <div class="page">
+                        <ul class="list">
+                            <li><a href="#FIXME" target="_blank" title="euroterms">Terms of use</a></li>
+                            <li><a href="#FIXME" target="_blank" title="europrivacy">Privacy and cookies</a></li>
+                            <li><a href="#FIXME" target="_blank" title="euroaccessibility">Accessibility</a></li>
+                            <li><a href="#FIXME" target="_blank" title="eurocookie">Manage cookie preferences</a></li>
+                        </ul>
+                    </div>
+                    <div class="page">
+                        <p>Copyright &copy; 2020 EuroFinance.</p>
+                    </div>
+                </div>
+            </div>
 
-            </footer>
-        
+        </footer>
+
     </div>
 </body>
 
